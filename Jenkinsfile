@@ -11,7 +11,7 @@ pipeline{
         }
         stage("deploy to prod"){
             when {
-                branch "master"
+                branch "main"
             }
             steps{
                 echo "hello aditya"
